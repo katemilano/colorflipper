@@ -27,10 +27,25 @@ h2{
 @media screen and (min-width: 800px){
     h2{
         font-size: 2.5rem;
+        line-height: 1rem;
     }
     body {
-        font-size: 2.5 rem;
-        line-height: 1 rem;
-        
+        font-size: 1rem;
     }
+
+}
+
+nav {
+    background: #fff;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px, 15px rgb(0, 0, 0, 0.2);
+}
+
+.nav-center {
+    width: 90px;
+    max-width: 620px;
+    margin: 0 auto;
+    display: flex;
 }
